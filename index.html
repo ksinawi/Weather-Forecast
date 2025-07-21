@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather Forecast</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="author" content="Faisal Isam">
+        <meta name="description" content="Live Weather Forecast">
+    </head>
+
+    <body>
+
+        <main class="weather-main-grid" id="main-container">
+            <div>
+                <input type="search" class="search-bar" id="search" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-button-img" src="./icons/search.png" id="search-button">
+                </button>
+            </div>
+
+            <div class="weather-display-grid">
+                <img class="weather-img" id="main-img">
+                <p class="weather-temp" id="main-p"></p>
+                <p class="weather-feels-like" id="main-feels-like"></p>
+                <p class="weather-location" id="main-location"></p>
+
+                <div class="extra-weather-grid">
+                    <img class="icon" src="./icons/humidity.png">
+                    <p class="humidity-p" id="humidity"></p>
+                    <img class="icon" src="./icons/gusts.png">
+                    <p class="gusts-p" id="gusts"></p>
+                </div>
+            </div>
+
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
