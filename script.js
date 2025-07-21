@@ -1,4 +1,4 @@
-const key = '606509710a73bde522aa11c983e64862';
+const key = 'your_api_key';
 
 let locations = {};
 
